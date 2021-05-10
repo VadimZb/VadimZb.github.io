@@ -1,18 +1,23 @@
 <template>
-    <v-container fluid>
-        <div v-for="(project, i) in projects" :key="i">
-            <Card :project="project" class="custom-margin" />
-        </div>
-    </v-container>
+    <div>
+        <Welcome />
+        <v-container fluid id="projects">
+            <div v-for="(project, i) in projects" :key="i">
+                <Card :project="project" class="custom-margin" />
+            </div>
+        </v-container>
+    </div>
 </template>
 
 <script>
 import Card from "@/components/Card";
+import Welcome from "@/components/Welcome";
 export default {
     name: "Home",
 
     components: {
         Card,
+        Welcome,
     },
     data() {
         return {
