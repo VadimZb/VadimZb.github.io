@@ -15,12 +15,12 @@
                                     v-bind="attrs"
                                     v-on="on"
                                     x-large
-                                    :color="item.color"
-                                    >{{ item.icon }}</v-icon
+                                    :color="info[item].color"
+                                    >{{ info[item].icon }}</v-icon
                                 >
                             </v-item>
                         </template>
-                        <span>{{ item.title }}</span>
+                        <span>{{ item }}</span>
                     </v-tooltip>
                 </v-col>
             </v-row>
@@ -34,6 +34,44 @@ export default {
         stack: {
             type: Array,
         },
+    },
+    data() {
+        return {
+            info: {
+                "Node.js": {
+                    icon: "mdi-nodejs",
+                    color: "light-green darken-2",
+                },
+                "Vue.js": {
+                    icon: "mdi-vuejs",
+                    color: "green lighten-1",
+                },
+                Vuetify: {
+                    icon: "mdi-vuetify",
+                    color: "light-blue lighten-3",
+                },
+                SVG: {
+                    icon: "mdi-svg",
+                    color: "yellow darken-4",
+                },
+                JSON: {
+                    icon: "mdi-cloud-braces",
+                    color: "deep-orange darken-1",
+                },
+                Bootstrap: {
+                    icon: "mdi-bootstrap",
+                    color: "purple darken-4",
+                },
+                GraphQL: {
+                    icon: "mdi-graphql",
+                    color: "pink lighten-1",
+                },
+                API: {
+                    icon: "mdi-api",
+                    color: "light-blue darken-4",
+                },
+            },
+        };
     },
 };
 </script>

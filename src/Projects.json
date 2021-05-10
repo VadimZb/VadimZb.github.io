@@ -2,30 +2,14 @@
     "projects": [
         {
             "title": "Anivue",
-            "description": "Lorem ipsum dolor sit amet",
+            "description": "Anime & Manga platform based on Anilist GraphQL API. Features: Search, Authorization, Dark Theme, Routing",
             "image": {
                 "lazy": "https://user-images.githubusercontent.com/78701914/108635722-f7b75800-7491-11eb-97f6-5ecebe098e13.png",
                 "large": "https://user-images.githubusercontent.com/78701914/108635722-f7b75800-7491-11eb-97f6-5ecebe098e13.png"
             },
             "url": "https://anivue.ru",
             "repo": "https://github.com/Anivue/Anivue",
-            "stack": [
-                {
-                    "title": "Vue.js",
-                    "icon": "mdi-vuejs",
-                    "color": "green lighten-1"
-                },
-                {
-                    "title": "GraphQL",
-                    "icon": "mdi-graphql",
-                    "color": "pink lighten-1"
-                },
-                {
-                    "title": "Vuetify",
-                    "icon": "mdi-vuetify",
-                    "color": "light-blue lighten-4"
-                }
-            ]
+            "stack": ["Vue.js", "GraphQL", "Vuetify", "API"]
         },
         {
             "title": "Japan Map",
@@ -36,28 +20,18 @@
             },
             "url": "https://vadimzb.github.io/JapanMap/",
             "repo": "https://github.com/VadimZb/JapanMap",
-            "stack": [
-                {
-                    "title": "Vue.js",
-                    "icon": "mdi-vuejs",
-                    "color": "green lighten-1"
-                },
-                {
-                    "title": "JSON",
-                    "icon": "mdi-cloud-braces",
-                    "color": "deep-orange darken-1"
-                },
-                {
-                    "title": "Vuetify",
-                    "icon": "mdi-vuetify",
-                    "color": "light-blue lighten-4"
-                },
-                {
-                    "title": "SVG",
-                    "icon": "mdi-svg",
-                    "color": "yellow darken-4"
-                }
-            ]
+            "stack": ["Vue.js", "JSON", "Vuetify", "SVG"]
+        },
+        {
+            "title": "Movie Finder",
+            "description": "Simple Movie App based on IMDb API and hosted on Heroku. Features: Random movie, search, dark theme.",
+            "image": {
+                "lazy": "https://user-images.githubusercontent.com/62389790/117724115-fa516000-b1eb-11eb-827e-6f472980cc47.png",
+                "large": "https://user-images.githubusercontent.com/62389790/117724115-fa516000-b1eb-11eb-827e-6f472980cc47.png"
+            },
+            "url": "https://fates-movies.herokuapp.com/",
+            "repo": "https://github.com/VadimZb/MoviePicker",
+            "stack": ["API", "Bootstrap", "Node.js"]
         }
     ]
 }
