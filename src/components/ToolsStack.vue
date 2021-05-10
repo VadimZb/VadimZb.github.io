@@ -2,7 +2,12 @@
     <v-item-group>
         <v-container>
             <v-row class="justify-center">
-                <v-col cols="1" v-for="(item, i) in stack" :key="i">
+                <v-col
+                    class="mx-3 mx-md-0"
+                    cols="1"
+                    v-for="(item, i) in stack"
+                    :key="i"
+                >
                     <v-tooltip bottom>
                         <template v-slot:activator="{ on, attrs }">
                             <v-item class="d-flex flex-column">
@@ -32,5 +37,3 @@ export default {
     },
 };
 </script>
-
-<style></style>

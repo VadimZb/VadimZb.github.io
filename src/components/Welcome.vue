@@ -12,7 +12,9 @@
                 >m
             </div>
             <div class="d-flex d-md-none align-center justify-center">
-                <span class="font-weight-bold">Vadim Z.</span>
+                <span class="font-weight-bold"
+                    >Vadim Z<span class="light-green--text">.</span></span
+                >
             </div>
             <div class="d-none d-md-flex align-center">
                 <HtmlBrackets tag="bold" /><span class="font-weight-bold"
