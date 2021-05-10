@@ -1,6 +1,7 @@
 <template>
     <div class="d-flex flex-column flex-md-row">
         <v-btn
+            elevation="24"
             href="https://github.com/VadimZb"
             class="ma-3 white--text"
             color="blue-grey darken-2"
@@ -9,6 +10,7 @@
             Github
         </v-btn>
         <v-btn
+            elevation="24"
             class="ma-3 white--text"
             color="blue-grey darken-2"
             @click="scrollToProjects"
@@ -17,6 +19,7 @@
             Projects
         </v-btn>
         <v-btn
+            elevation="24"
             @click="switchTheme"
             class="ma-3 white--text"
             color="blue-grey darken-2"
