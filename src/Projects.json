@@ -42,7 +42,7 @@
             },
             "url": "https://fates-chat.herokuapp.com/",
             "repo": "https://github.com/VadimZb/Chat",
-            "stack": ["Bootstrap", "Node.js"]
+            "stack": ["Node.js"]
         }
     ]
 }
