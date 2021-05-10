@@ -1,15 +1,15 @@
 <template>
-    <div>
+    <div class="d-flex flex-column flex-md-row">
         <v-btn
             href="https://github.com/VadimZb"
-            class="mx-3 white--text"
+            class="ma-3 white--text"
             color="blue-grey darken-2"
         >
             <v-icon left>mdi-github</v-icon>
             Github
         </v-btn>
         <v-btn
-            class="mx-3 white--text"
+            class="ma-3 white--text"
             color="blue-grey darken-2"
             @click="scrollToProjects"
         >
@@ -18,7 +18,7 @@
         </v-btn>
         <v-btn
             @click="switchTheme"
-            class="mx-3 white--text"
+            class="ma-3 white--text"
             color="blue-grey darken-2"
         >
             <v-icon left>{{ themeIcon }}</v-icon>
