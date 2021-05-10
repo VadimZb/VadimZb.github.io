@@ -32,6 +32,17 @@
             "url": "https://fates-movies.herokuapp.com/",
             "repo": "https://github.com/VadimZb/MoviePicker",
             "stack": ["API", "Bootstrap", "Node.js"]
+        },
+        {
+            "title": "Chat App",
+            "description": "Basic chat app. Built with Socket.IO Node.js library. Features: WebSocket connection and HTTP long polling",
+            "image": {
+                "lazy": "https://user-images.githubusercontent.com/62389790/117728888-b9a91500-b1f2-11eb-966a-1c2d9651917f.png",
+                "large": "https://user-images.githubusercontent.com/62389790/117728888-b9a91500-b1f2-11eb-966a-1c2d9651917f.png"
+            },
+            "url": "https://fates-chat.herokuapp.com/",
+            "repo": "https://github.com/VadimZb/Chat",
+            "stack": ["Bootstrap", "Node.js"]
         }
     ]
 }
