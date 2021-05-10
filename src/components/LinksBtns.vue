@@ -2,16 +2,14 @@
     <div class="d-flex justify-center">
         <v-btn
             elevation="12"
-            class="mx-3 white--text"
-            :href="project.repo"
-            color="blue-grey darken-2"
+            v-for="(btn, i) in buttons"
+            :key="i"
+            :class="btn.class"
+            :href="btn.url"
+            :color="btn.color"
         >
-            <v-icon left>mdi-github</v-icon>
-            Github
-        </v-btn>
-        <v-btn elevation="12" class="mx-3" :href="project.url" color="primary">
-            <v-icon left>mdi-open-in-new</v-icon>
-            Open
+            <v-icon left>{{ btn.icon }}</v-icon>
+            {{ btn.title }}
         </v-btn>
     </div>
 </template>
@@ -21,6 +19,26 @@ export default {
     props: {
         project: {
             type: Object,
+        },
+    },
+    computed: {
+        buttons() {
+            return [
+                {
+                    title: "Github",
+                    color: "blue-grey darken-2",
+                    url: this.project.repo,
+                    class: "mx-3 white--text",
+                    icon: "mdi-github",
+                },
+                {
+                    title: "Open",
+                    color: "primary",
+                    url: this.project.url,
+                    class: "mx-3",
+                    icon: "mdi-open-in-new",
+                },
+            ];
         },
     },
 };
