@@ -1,5 +1,5 @@
 <template>
-    <v-card class="elevation-0 mx-auto" max-width="1000">
+    <v-card class="elevation-0 mx-auto transparent" max-width="1000">
         <v-img
             class="rounded-lg elevation-12"
             :lazy-src="project.image.lazy"
