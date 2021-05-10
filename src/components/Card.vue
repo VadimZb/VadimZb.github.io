@@ -36,7 +36,7 @@ export default {
     },
     data() {
         return {
-            titleStyle: "light-green--text font-weight-bold",
+            titleStyle: "light-green--text font-weight-bold mx-2",
         };
     },
 };
