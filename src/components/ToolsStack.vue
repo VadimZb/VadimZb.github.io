@@ -12,6 +12,7 @@
                         <template v-slot:activator="{ on, attrs }">
                             <v-item class="d-flex flex-column">
                                 <v-icon
+                                    class="resize-on-hover"
                                     v-bind="attrs"
                                     v-on="on"
                                     x-large
@@ -75,3 +76,13 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.resize-on-hover {
+    transition: 0.4s;
+}
+
+.resize-on-hover:hover {
+    transform: scale(1.3);
+}
+</style>
