@@ -16,8 +16,8 @@
             to="/about"
             :color="color"
         >
-            <v-icon left>mdi-account-question</v-icon>
-            About Me
+            <v-icon left>mdi-code-json</v-icon>
+            Skills
         </v-btn>
         <v-btn
             :elevation="elevation"
