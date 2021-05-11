@@ -7,10 +7,10 @@
         >
         </v-img>
         <div class="my-7">
-            <v-card-title class="text-h3 justify-center">
-                <span :class="titleStyle">&lt;</span>{{ project.title }}
-                <span :class="titleStyle">/&gt;</span>
-            </v-card-title>
+            <v-card-title
+                class="text-h3 justify-center font-weight-light"
+                v-text="project.title"
+            ></v-card-title>
             <LinksBtns class="my-5" :project="project" />
             <ToolsStack :stack="project.stack" />
         </div>
@@ -42,5 +42,3 @@ export default {
     },
 };
 </script>
-
-<style></style>
