@@ -1,29 +1,38 @@
 <template>
     <div class="d-flex flex-column flex-md-row">
         <v-btn
-            elevation="24"
+            :elevation="elevation"
             href="https://github.com/VadimZb"
-            class="ma-3 white--text"
-            color="blue-grey darken-2"
+            :class="btnClass"
+            :color="color"
             target="_blank"
         >
             <v-icon left>mdi-github</v-icon>
             Github
         </v-btn>
         <v-btn
-            elevation="24"
-            class="ma-3 white--text"
-            color="blue-grey darken-2"
+            :elevation="elevation"
+            :class="btnClass"
+            to="/about"
+            :color="color"
+        >
+            <v-icon left>mdi-account-question</v-icon>
+            About Me
+        </v-btn>
+        <v-btn
+            :elevation="elevation"
+            :class="btnClass"
+            :color="color"
             @click="scrollToProjects"
         >
             <v-icon left>mdi-xml</v-icon>
             Projects
         </v-btn>
         <v-btn
-            elevation="24"
+            :elevation="elevation"
             @click="switchTheme"
-            class="ma-3 white--text"
-            color="blue-grey darken-2"
+            :class="btnClass"
+            :color="color"
         >
             <v-icon left>{{ themeIcon }}</v-icon>
             Dark Theme: {{ themeTitle }}
@@ -42,6 +51,13 @@ export default {
         switchTheme() {
             this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
         },
+    },
+    data() {
+        return {
+            elevation: 24,
+            btnClass: "mx-3 white--text",
+            color: "accentBg",
+        };
     },
     computed: {
         themeIcon() {
