@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-column flex-md-row">
+    <div class="d-flex flex-column flex-md-row flex-wrap">
         <v-btn
             :elevation="elevation"
             href="https://github.com/VadimZb"
@@ -55,7 +55,7 @@ export default {
     data() {
         return {
             elevation: 24,
-            btnClass: "mx-3 white--text",
+            btnClass: "ma-3 white--text",
             color: "accentBg",
         };
     },
