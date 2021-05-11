@@ -3,8 +3,9 @@
         <v-col
             v-for="(lang, i) in languages"
             :key="i"
-            cols="6"
-            class="d-flex align-center justify-center"
+            cols="12"
+            md="6"
+            class="d-flex align-center justify-center my-7"
         >
             <div
                 class="d-flex flex-column justify-center align-center full-width"
