@@ -1,17 +1,40 @@
 <template>
-    <div class="about">
-        <Appbar />
-        <h1>This is an about page</h1>
-    </div>
+    <v-container
+        class="d-flex flex-column justify-center align-center fill-height"
+    >
+        <v-btn class="my-10 white--text" elevation="7" color="accentBg" to="/">
+            <v-icon left>mdi-keyboard-backspace</v-icon>
+            Back
+        </v-btn>
+        <div>
+            <h1 class="text-h2 text-center mb-10">
+                <Accent>{</Accent> Skills <Accent>}</Accent>
+            </h1>
+            <Skills />
+        </div>
+    </v-container>
 </template>
 
 <script>
-import Appbar from "@/components/Appbar";
+import Skills from "@/components/Skills";
+import Accent from "@/components/Accent";
 export default {
     name: "About",
 
     components: {
-        Appbar,
+        Accent,
+        Skills,
+    },
+    data() {
+        return {
+            age: 17,
+        };
     },
 };
 </script>
+
+<style scoped>
+.fill-height {
+    height: 100vh;
+}
+</style>
