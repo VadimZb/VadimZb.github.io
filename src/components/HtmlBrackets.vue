@@ -1,5 +1,5 @@
 <template>
-    <p class="text-h4 light-green--text font-weight-bold my-0 mx-2">
+    <p :class="color" class="text-h4 font-weight-bold my-0 mx-2">
         &lt;<span v-if="closing">/</span>{{ tag }}&gt;
     </p>
 </template>
@@ -15,6 +15,11 @@ export default {
             type: String,
             required: true,
         },
+    },
+    data() {
+        return {
+            color: "accent--text",
+        };
     },
 };
 </script>
