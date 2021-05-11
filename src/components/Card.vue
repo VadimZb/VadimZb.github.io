@@ -15,9 +15,10 @@
             <ToolsStack :stack="project.stack" />
         </div>
 
-        <v-card-subtitle class="text-h5 text-center">{{
-            project.description
-        }}</v-card-subtitle>
+        <v-card-subtitle
+            class="text-h5 text-center"
+            v-text="project.description"
+        ></v-card-subtitle>
     </v-card>
 </template>
 
@@ -36,7 +37,7 @@ export default {
     },
     data() {
         return {
-            titleStyle: "light-green--text font-weight-bold mx-2",
+            titleStyle: "accent--text font-weight-bold mx-2",
         };
     },
 };
