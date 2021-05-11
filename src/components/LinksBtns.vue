@@ -7,6 +7,7 @@
             :class="btn.class"
             :href="btn.url"
             :color="btn.color"
+            target="_blank"
         >
             <v-icon left>{{ btn.icon }}</v-icon>
             {{ btn.title }}

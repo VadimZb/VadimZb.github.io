@@ -5,6 +5,7 @@
             href="https://github.com/VadimZb"
             class="ma-3 white--text"
             color="blue-grey darken-2"
+            target="_blank"
         >
             <v-icon left>mdi-github</v-icon>
             Github
