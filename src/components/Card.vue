@@ -35,10 +35,5 @@ export default {
             type: Object,
         },
     },
-    data() {
-        return {
-            titleStyle: "accent--text font-weight-bold mx-2",
-        };
-    },
 };
 </script>
