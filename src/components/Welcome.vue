@@ -6,15 +6,11 @@
     >
         <div class="text-h2 my-10">
             <div class="text-center text-md-left text-h4 text-md-h2">
-                Hello<span class="light-green--text">,</span> I<span
-                    class="light-green--text"
-                    >'</span
-                >m
+                Hello<Accent>,</Accent>
+                I<Accent>'</Accent>m
             </div>
             <div class="d-flex d-md-none align-center justify-center">
-                <span class="font-weight-bold"
-                    >Vadim Z<span class="light-green--text">.</span></span
-                >
+                <span class="font-weight-bold">Vadim Z<Accent>.</Accent></span>
             </div>
             <div class="d-none d-md-flex align-center">
                 <HtmlBrackets tag="bold" /><span class="font-weight-bold"
@@ -32,11 +28,13 @@
 
 <script>
 import HtmlBrackets from "@/components/HtmlBrackets";
+import Accent from "@/components/Accent";
 import WelcomeBtns from "@/components/WelcomeBtns";
 export default {
     components: {
         HtmlBrackets,
         WelcomeBtns,
+        Accent,
     },
 };
 </script>
