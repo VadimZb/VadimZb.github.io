@@ -13,9 +13,11 @@
                 <span class="font-weight-bold">Vadim Z<Accent>.</Accent></span>
             </div>
             <div class="d-none d-md-flex align-center">
-                <HtmlBrackets tag="bold" /><span class="font-weight-bold"
-                    >Vadim Zbaraschchenko</span
-                ><HtmlBrackets tag="bold" closing />
+                <Tag tag="bold">
+                    <span class="font-weight-bold">
+                        Vadim Zbaraschchenko
+                    </span>
+                </Tag>
             </div>
 
             <div class="text-md-right text-center text-h5 text-md-h2">
@@ -27,12 +29,12 @@
 </template>
 
 <script>
-import HtmlBrackets from "@/components/HtmlBrackets";
+import Tag from "@/components/Tag";
 import Accent from "@/components/Accent";
 import WelcomeBtns from "@/components/WelcomeBtns";
 export default {
     components: {
-        HtmlBrackets,
+        Tag,
         WelcomeBtns,
         Accent,
     },
