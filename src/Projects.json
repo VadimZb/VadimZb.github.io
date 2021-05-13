@@ -4,8 +4,8 @@
             "title": "Anivue",
             "description": "Anime & Manga platform based on Anilist GraphQL API. Features: Search, Authorization, Dark Theme, Routing",
             "image": {
-                "lazy": "https://user-images.githubusercontent.com/78701914/108635722-f7b75800-7491-11eb-97f6-5ecebe098e13.png",
-                "large": "https://user-images.githubusercontent.com/78701914/108635722-f7b75800-7491-11eb-97f6-5ecebe098e13.png"
+                "lazy": "https://github.com/VadimZb/MyFiles/blob/main/portfolio/anivue-min.jpg?raw=true",
+                "large": "https://github.com/VadimZb/MyFiles/blob/main/portfolio/anivue.png?raw=true"
             },
             "url": "https://anivue.ru",
             "repo": "https://github.com/Anivue/Anivue",
@@ -15,8 +15,8 @@
             "title": "Japan Map",
             "description": "Interactive Japan Map",
             "image": {
-                "lazy": "https://user-images.githubusercontent.com/62389790/117709940-324fa780-b1da-11eb-82aa-c5d03510c8e7.png",
-                "large": "https://user-images.githubusercontent.com/62389790/117709940-324fa780-b1da-11eb-82aa-c5d03510c8e7.png"
+                "lazy": "https://github.com/VadimZb/MyFiles/blob/main/portfolio/japan-min.jpg?raw=true",
+                "large": "https://github.com/VadimZb/MyFiles/blob/main/portfolio/japan.png?raw=true"
             },
             "url": "https://vadimzb.github.io/JapanMap/",
             "repo": "https://github.com/VadimZb/JapanMap",
@@ -26,8 +26,8 @@
             "title": "Movie Finder",
             "description": "Simple Movie App based on IMDb API and hosted on Heroku. Features: Random movie, search, dark theme.",
             "image": {
-                "lazy": "https://user-images.githubusercontent.com/62389790/117724115-fa516000-b1eb-11eb-827e-6f472980cc47.png",
-                "large": "https://user-images.githubusercontent.com/62389790/117724115-fa516000-b1eb-11eb-827e-6f472980cc47.png"
+                "lazy": "https://github.com/VadimZb/MyFiles/blob/main/portfolio/movies-min.jpg?raw=true",
+                "large": "https://github.com/VadimZb/MyFiles/blob/main/portfolio/movies.png?raw=true"
             },
             "url": "https://fates-movies.herokuapp.com/",
             "repo": "https://github.com/VadimZb/MoviePicker",
@@ -37,8 +37,8 @@
             "title": "Chat App",
             "description": "Basic chat app. Built with Socket.IO Node.js library. Features: WebSocket connection and HTTP long polling",
             "image": {
-                "lazy": "https://user-images.githubusercontent.com/62389790/117728888-b9a91500-b1f2-11eb-966a-1c2d9651917f.png",
-                "large": "https://user-images.githubusercontent.com/62389790/117728888-b9a91500-b1f2-11eb-966a-1c2d9651917f.png"
+                "lazy": "https://github.com/VadimZb/MyFiles/blob/main/portfolio/chat-min.jpg?raw=true",
+                "large": "https://github.com/VadimZb/MyFiles/blob/main/portfolio/chat.png?raw=true"
             },
             "url": "https://fates-chat.herokuapp.com/",
             "repo": "https://github.com/VadimZb/Chat",
