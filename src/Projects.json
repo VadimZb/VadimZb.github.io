@@ -20,7 +20,7 @@
             },
             "url": "https://vadimzb.github.io/JapanMap/",
             "repo": "https://github.com/VadimZb/JapanMap",
-            "stack": ["Vue.js", "JSON", "Vuetify", "SVG"]
+            "stack": ["Vue.js", "Vuetify", "SVG"]
         },
         {
             "title": "Movie Finder",
