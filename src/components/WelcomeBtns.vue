@@ -13,7 +13,7 @@
         <v-btn
             :elevation="elevation"
             :class="btnClass"
-            to="/about"
+            to="/skills"
             :color="color"
         >
             <v-icon left>mdi-code-json</v-icon>
