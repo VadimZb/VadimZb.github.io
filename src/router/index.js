@@ -9,10 +9,12 @@ const routes = [
         path: "/",
         name: "Home",
         component: Home,
+        meta: { title: "Home" },
     },
     {
         path: "/about",
         name: "About",
+        meta: { title: "Skills" },
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
@@ -26,6 +28,13 @@ const router = new VueRouter({
     scrollBehavior() {
         return { x: 0, y: 0 };
     },
+});
+
+const DEFAULT_TITLE = "Vadim Z";
+router.afterEach((to) => {
+    Vue.nextTick(() => {
+        document.title = `${to.meta.title} - ${DEFAULT_TITLE}` || DEFAULT_TITLE;
+    });
 });
 
 export default router;
