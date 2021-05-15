@@ -21,16 +21,9 @@
 import Skills from "@/components/Skills";
 import Accent from "@/components/Accent";
 export default {
-    name: "About",
-
     components: {
         Accent,
         Skills,
-    },
-    data() {
-        return {
-            age: 17,
-        };
     },
 };
 </script>
