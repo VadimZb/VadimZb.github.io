@@ -53,12 +53,12 @@ export default {
                     skills: ["Node.js", "Vue.js", "GraphQL", "Vuetify"],
                 },
                 {
-                    name: "Typescript",
-                    skills: [],
-                },
-                {
                     name: "Python",
                     skills: ["Django", "Telegram Bots"],
+                },
+                {
+                    name: "Typescript",
+                    skills: [],
                 },
                 {
                     name: "Elixir",
