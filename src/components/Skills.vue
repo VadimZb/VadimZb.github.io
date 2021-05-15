@@ -67,6 +67,17 @@ export default {
             ],
         };
     },
+    methods: {
+        sortBySkillLevel(a, b) {
+            const _a = this.tools[a.name].skill;
+            const _b = this.tools[b.name].skill;
+
+            return _b - _a;
+        },
+    },
+    created() {
+        this.languages.sort(this.sortBySkillLevel);
+    },
 };
 </script>
 
