@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Skills from "../views/Skills.vue";
 
 Vue.use(VueRouter);
 
@@ -15,8 +16,7 @@ const routes = [
         path: "/skills",
         name: "Skills",
         meta: { title: "Skills" },
-        component: () =>
-            import(/* webpackChunkName: "about" */ "../views/Skills.vue"),
+        component: Skills,
     },
 ];
 
