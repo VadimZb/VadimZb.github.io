@@ -2,21 +2,21 @@
     {
         "name": "Javascript",
         "skills": ["Node.js", "Vue.js", "GraphQL", "Vuetify"],
-        "skill": "3"
+        "skill": 3
     },
     {
         "name": "Python",
         "skills": ["Django", "Telegram Bots"],
-        "skill": "3"
+        "skill": 3
     },
     {
         "name": "Typescript",
         "skills": [],
-        "skill": "2"
+        "skill": 3
     },
     {
         "name": "Elixir",
         "skills": [],
-        "skill": "1"
+        "skill": 3
     }
 ]
