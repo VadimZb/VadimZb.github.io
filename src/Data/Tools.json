@@ -44,22 +44,18 @@
     },
     "Typescript": {
         "icon": "mdi-language-typescript",
-        "color": "light-blue darken-4",
-        "skill": 2
+        "color": "light-blue darken-4"
     },
     "Javascript": {
         "icon": "mdi-language-javascript",
-        "color": "yellow darken-1",
-        "skill": 3
+        "color": "yellow darken-1"
     },
     "Python": {
         "icon": "mdi-language-python",
-        "color": "light-blue darken-3",
-        "skill": 3
+        "color": "light-blue darken-3"
     },
     "Elixir": {
         "icon": "mdi-water",
-        "color": "deep-purple",
-        "skill": 1
+        "color": "deep-purple"
     }
 }

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Javascript",
+        "skills": ["Node.js", "Vue.js", "GraphQL", "Vuetify"],
+        "level": 3
+    },
+    {
+        "name": "Python",
+        "skills": ["Django", "Telegram Bots"],
+        "level": 3
+    },
+    {
+        "name": "Typescript",
+        "skills": [],
+        "level": 2
+    },
+    {
+        "name": "Elixir",
+        "skills": [],
+        "level": 1
+    }
+]

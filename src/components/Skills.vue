@@ -21,7 +21,7 @@
                     <p class="text-h6 font-weight-light">
                         Skill level:
                         <Accent class="font-weight-bold">{{
-                            skillLevel[tools[lang.name].skill]
+                            skillLevel[lang.skill]
                         }}</Accent>
                     </p>
                 </div>
@@ -42,29 +42,12 @@ export default {
     data() {
         return {
             tools: this.$store.state.tools,
+            languages: this.$store.state.languages,
             skillLevel: {
                 1: "Basic",
                 2: "Medium",
                 3: "Advanced",
             },
-            languages: [
-                {
-                    name: "Javascript",
-                    skills: ["Node.js", "Vue.js", "GraphQL", "Vuetify"],
-                },
-                {
-                    name: "Python",
-                    skills: ["Django", "Telegram Bots"],
-                },
-                {
-                    name: "Typescript",
-                    skills: [],
-                },
-                {
-                    name: "Elixir",
-                    skills: [],
-                },
-            ],
         };
     },
     methods: {
