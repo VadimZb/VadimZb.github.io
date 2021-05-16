@@ -4,7 +4,7 @@
             <BracketsTitle>About</BracketsTitle>
         </div>
         <div class="d-flex align-center justify-center flex-column">
-            <h1 class="text-h4 font-weight-light">
+            <h1 class="text-h4 font-weight-light text-center">
                 I<Accent>'</Accent>m {{ age }} y<Accent>.</Accent>o<Accent
                     >.</Accent
                 >
