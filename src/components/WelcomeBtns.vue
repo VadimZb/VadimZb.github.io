@@ -13,11 +13,11 @@
         <v-btn
             :elevation="elevation"
             :class="btnClass"
-            to="/skills"
+            :to="{ name: 'about' }"
             :color="color"
         >
             <v-icon left>mdi-code-json</v-icon>
-            Skills
+            About Me
         </v-btn>
         <v-btn
             :elevation="elevation"

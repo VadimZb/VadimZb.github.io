@@ -1,22 +1,22 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Skills from "../views/Skills.vue";
+import About from "../views/About.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
     {
         path: "/",
-        name: "Home",
+        name: "home",
         component: Home,
         meta: { title: "Home" },
     },
     {
-        path: "/skills",
-        name: "Skills",
-        meta: { title: "Skills" },
-        component: Skills,
+        path: "/about",
+        name: "about",
+        meta: { title: "About" },
+        component: About,
     },
 ];
 
@@ -30,7 +30,10 @@ const router = new VueRouter({
 const DEFAULT_TITLE = "Vadim Z";
 router.afterEach((to) => {
     Vue.nextTick(() => {
-        document.title = `${to.meta.title} - ${DEFAULT_TITLE}` || DEFAULT_TITLE;
+        const title = to.meta.title;
+        document.title = title
+            ? `${to.meta.title} - ${DEFAULT_TITLE}`
+            : DEFAULT_TITLE;
     });
 });
 
